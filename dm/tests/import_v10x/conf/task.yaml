@@ -117,7 +117,7 @@ syncers:
     safe-mode: false
     safe-mode-duration: 60s
     enable-ansi-quotes: false
-    auto-id-cache: 0
+    auto-id-cache-size: 0
   sync-02:
     meta-file: ""
     worker-count: 16
@@ -133,7 +133,7 @@ syncers:
     safe-mode: false
     safe-mode-duration: 60s
     enable-ansi-quotes: false
-    auto-id-cache: 0
+    auto-id-cache-size: 0
 validators:
   validator-01:
     mode: none

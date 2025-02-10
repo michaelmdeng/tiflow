@@ -404,7 +404,7 @@ type SyncerConfig struct {
 	Compact      bool `yaml:"compact" toml:"compact" json:"compact"`
 	MultipleRows bool `yaml:"multiple-rows" toml:"multiple-rows" json:"multiple-rows"`
 
-	AutoIDCacheSize uint64 `yaml:"auto-id-cache" toml:"auto-id-cache" json:"auto-id-cache"`
+	AutoIDCacheSize uint64 `yaml:"auto-id-cache-size" toml:"auto-id-cache-size" json:"auto-id-cache-size"`
 
 	// deprecated
 	MaxRetry int `yaml:"max-retry" toml:"max-retry" json:"max-retry"`
