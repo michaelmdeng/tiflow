@@ -1204,7 +1204,7 @@ func TestSyncerYamlForDowngrade(t *testing.T) {
 		TaskMode: ModeFull,
 		MySQLInstances: []*MySQLInstance{
 			{
-				SourceID: "mysql-3306",
+				SourceID:         "mysql-3306",
 				SyncerConfigName: syncerConfigName,
 			},
 		},
